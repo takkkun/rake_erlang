@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#
+#  Created by KONDO Takahiro on 2010-1-9.
+#  Copyright (c) 2010. All rights reserved.
+
+require 'rubygems'
+require File.expand_path(File.dirname(__FILE__) + "/../lib/rake_erlang")
+require "rake_erlang/cli"
+
+RakeErlang::CLI.execute(STDOUT, ARGV)

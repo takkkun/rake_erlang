@@ -1,7 +1,11 @@
-require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require File.dirname(__FILE__) + '/spec_helper.rb'
 
-describe "RakeErlang" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+# Time to add your specs!
+# http://rspec.info/
+describe "Place your specs here" do
+  
+  it "find this spec in spec directory" do
+    # violated "Be sure to write your specs"
   end
+  
 end
